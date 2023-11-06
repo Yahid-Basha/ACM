@@ -76,7 +76,7 @@ nav ul li a {
     color: #150505;
     background-color: bisque;
     width: max-content;
-    padding: 20px;
+    padding: 10px;
     border-radius: 18px;
 }
 
@@ -132,7 +132,7 @@ img{
 .content{
 
     padding: 10px;
-    border-radius: 28px;
+border-radius: 28px;
 }
 
 footer {
