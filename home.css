@@ -78,6 +78,7 @@ nav ul li a {
     width: max-content;
     padding: 10px;
     border-radius: 18px;
+    margin-bottom: 30px;
 }
 
 
@@ -130,9 +131,8 @@ img{
     }
 }
 .content{
-
-    padding: 10px;
-border-radius: 28px;
+    padding: 0 10px;
+    border-radius: 28px;
 }
 
 footer {
