@@ -52,6 +52,7 @@ nav ul li a {
 }
 
 .navBar, #side-headings {
+    width: 100%;
     padding: 0.6rem;
     background-color: rgb(255, 255, 242);
     font-size: 1.4rem;
