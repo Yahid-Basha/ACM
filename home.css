@@ -1,0 +1,147 @@
+/* Add some basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #150505;
+    color: #ffffff;
+}
+
+header {
+    background: rgb(184, 184, 215);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#name, #x{
+    font-size: 3rem;
+    text-shadow: 3px 3px #000000;
+    display: inline;
+    font-family: Sail;
+    font-family: Agbalumo;
+}
+
+#x{
+    font-size: 4.5rem;
+}
+
+#tag{
+    font-size: 1.5rem;
+    color: black;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navBar, #side-headings {
+    padding: 0.6rem;
+    background-color: rgb(255, 255, 242);
+    font-size: 1.4rem;
+    color: #212b36;
+    border: 2px solid rgba(0, 0, 0, 0.91);
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(100, 100, 119);
+  }
+  
+
+.navBar:hover, #side-headings:hover{
+    cursor: pointer;
+    left: -2px;
+    top: -2px;
+    box-shadow: 7px 7px black;
+  }
+
+#main-heading{
+    margin: 0 auto;
+    color: #150505;
+    background-color: bisque;
+    width: max-content;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+
+section {
+    padding: 20px;
+}
+
+
+#intro{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.workshop-list {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+img{
+    height: 300px;
+    border-radius: 18px;
+}
+
+#session-name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+.workshop-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 18px;
+    padding: 35px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 40px;
+}
+@media (max-width: 768px) {
+    .workshop-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workshop-card .image {
+        order: 1;
+    }
+    .workshop-card .content {
+        order: 2;
+    }
+}
+.content{
+
+    padding: 10px;
+    border-radius: 28px;
+}
+
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles can be added as well */
