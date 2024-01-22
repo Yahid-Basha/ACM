@@ -18,10 +18,15 @@
         <p id="x">X</p>
         <p id="tag">Your Starship to trending tech</p>
         <nav>
-            <ul>
-                <li><a href="#workshops" class="navBar">Workshops</a></li>
-                <li><a href="#schedule" class="navBar">Schedule</a></li>
-            </ul>
+            <div>
+                <a href="#workshops" class="navBar">Workshops</a>
+            </div>
+            <div>
+                <a href="#schedule" class="navBar">Schedule</a>
+            </div>
+            <div>
+                <a href="register.html" class="navBar">Register</a>
+            </div>
         </nav>
     </header>
 
@@ -30,11 +35,38 @@
     </section>
 
     <section id="workshops">
+
         <h2 id="main-heading">Mini Workshops</h2>
+
+        <div class="tracks">
+            <div id="track1" class="track" ><b>Track 1</b></div>
+            <div id="track2" class="track" ><b>Track 2</b></div>
+        </div>
+        
+
+        <div class="workshop-list" id="workshop-list"></div>
+
+        
+        <!-- <div class="workshop-list">
+            <div class="workshop-card">
+                <div class="image">
+                    <img src="assessts/OpenSource-img.png">
+                </div>
+                <div class="content">
+                    <h3 id="session-name">Open Source & Making your first OS contribution & GSOC</h3>
+                    <p><strong>Date</strong>: Jan 29, 2024 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Time</strong> 9:30 AM → 10:30 AM</p>
+                    <p><strong>Duration</strong> 1 hour</p>
+                    <a id="main-heading">Learn more</a>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!-- <h2 id="main-heading">Mini Workshops</h2>
         <div class="workshop-list">
             <div class="workshop-card">
                 <div class="image">
-                    <img src="OpenSource-img.png">
+                    <img src="assessts/OpenSource-img.png">
                 </div>
                 <div class="content">
                     <h3 id="session-name">Open Source & Making your first OS contribution & GSOC</h3>
@@ -53,13 +85,13 @@
                     <p>Collaborate with confidence and take control of your development workflow, one commit at a time!</p>
                 </div>
                 <div class="image">
-                    <img src="git-image1.png">
+                    <img src="assessts/git-image1.png">
                 </div>
             </div>
 
             <div class="workshop-card">
                 <div class="image">
-                    <img src="react-js-img.png">
+                    <img src="assessts/react-js-img.png">
                 </div>
                 <div class="content">
                     <h3 id="session-name">Get Started with React JS</h3>
@@ -77,13 +109,13 @@
                     <p> Learn about React Native components, navigation, and state management in an interactive environment that will leave you with a functional app on your device!</p>
                 </div> 
                 <div class="image">
-                    <img src="react-native-img1.png">
+                    <img src="assessts/react-native-img1.png">
                 </div>
             </div>
 
             <div class="workshop-card">
                 <div class="image">
-                    <img src="url-shortner-img.png">
+                    <img src="assessts/url-shortner-img.png">
                 </div>
                 <div class="content">
                     <h3 id="session-name">Build Your Own URL Shortener</h3>
@@ -101,13 +133,13 @@
                     <p>Expect to leave with the confidence to turn any design mockup into a fully functional and responsive website layout.</p>
                 </div> 
                 <div class="image">
-                    <img src="css-img.png">
+                    <img src="assessts/css-img.png">
                 </div>
             </div>
             
             <div class="workshop-card">
                 <div class="image">
-                    <img src="postman-api.png">
+                    <img src="assessts/postman-api.png">
                 </div>
                 <div class="content">
                     <h3 id="session-name">APIs Development and Deployment</h3>
@@ -127,13 +159,13 @@
                 <p>Covering data preprocessing, model selection, and deployment using platforms like TensorFlow and PyTorch, you’ll get a real taste of AI development that’s directly applicable in the industry.</p>
             </div> 
             <div class="image">
-                <img src="ml-host.png">
+                <img src="assessts/ml-host.png">
             </div>
         </div>
 
         <div class="workshop-card">
             <div class="image">
-                <img src="hosting.png">
+                <img src="assessts/hosting.png">
             </div>
             <div class="content">
                 <h3 id="session-name">Responsive Design & Hosting Your Website</h3>
@@ -151,13 +183,13 @@
                 <p>This session will cover techniques for designing prompts that result in creative, accurate, and useful AI responses.</p>
             </div> 
             <div class="image">
-                <img src="PromptEngineering.png">
+                <img src="assessts/PromptEngineering.png">
             </div>
         </div>
 
         <div class="workshop-card">
             <div class="image">
-                <img src="js-logo.png">
+                <img src="assessts/js-logo.png">
             </div>
             <div class="content">
                 <h3 id="session-name">The Beauty of JS</h3>
@@ -165,7 +197,7 @@
                 <p>This workshop celebrates the versatility of JS, covering everything from fundamental concepts to advanced features like async/await, closures, and the event loop.</p>
                 <p>You’ll write code that breathes life into web pages, making them interactive and fun!"</p>
             </div> 
-        </div>
+        </div> -->
 
 
     </section>
@@ -185,5 +217,7 @@
     <footer>
         <p>&copy; 2024 ACM X Tech Carnival</p>
     </footer>
+
+    <script src="home.js"></script>
 </body>
 </html>
