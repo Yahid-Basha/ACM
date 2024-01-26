@@ -77,7 +77,7 @@ const tracksItemsData = {
         dateTime: "Jan 30, 9:30am",
         date: "Jan 30, 2024",
         time: "9:30 AM to 11:30 AM",
-        duration: 1,
+        duration: 1.5,
         pageLink: "openSource.html"
       },
       {
@@ -136,7 +136,7 @@ const tracksItemsData = {
         pageLink: "deployML.html"
       },
       {
-        sessionName: "DY URL Shortener",
+        sessionName: "DIY URL Shortener",
         imgSrc: "assets/url-shortner-img.png",
         track: "Track 2",
         time: "10:45 AM to 12:15 PM",
@@ -158,7 +158,7 @@ const tracksItemsData = {
         imgSrc: "assets/OpenSource-img.png",
         track: "Track 2",
         time: "9:30 AM to 11:30 AM",
-        duration: 1,
+        duration: 1.5,
         pageLink: "openSource.html"
       },
       {
