@@ -203,3 +203,18 @@ body{
     color: white;
     padding: 0px 16px;
   }
+
+@media(min-width: 1200px) {
+  .main-container{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-img{
+    width: 800px;
+    height: 500px;
+  }
+
+}

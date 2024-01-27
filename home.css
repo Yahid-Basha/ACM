@@ -108,6 +108,10 @@ nav a {
     font-size: 25px;
 }
 
+.track:hover, .day:hover{
+    cursor: pointer;
+}
+
 
 section {
     padding: 20px;
@@ -215,6 +219,7 @@ img{
     font-size: 24px;
 }
 
+
 #schedule-section p, #cultural p{
     font-size: 20px;
 }
@@ -231,3 +236,78 @@ footer {
 }
 
 
+@media(min-width: 1200px) {
+
+    nav{
+        gap: 50px;
+    }
+    .workshop-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Italiana;
+    }
+
+    #intro{
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 28px;
+    }
+
+    #workshop{
+        font-size: 38px;
+        font-family: Italiana;
+    }
+
+
+
+    #schedule-section{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 40px;
+    }
+
+    #schedule-section h1, #cultural h1{
+        font-size: 40px;
+        font-family: Italiana;
+    }
+
+
+    #schedule-section p{
+        text-align: center;
+        font-size: 24px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 8px 20px;
+        text-align: justify;
+    }
+
+    #cultural p{
+        font-size: 28px;
+    }
+
+    .workshop-card{
+        width: 400px;
+        min-height: 500px;
+        max-height: 600px;
+    }
+
+    .workshop-card h1{
+        text-align: center;
+    }
+
+    .workshop-card p{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .workshop-card strong, .workshop-card p{
+        font-size: 26px;
+    }
+
+    #learn-more{
+        font-size: 26px;
+    }
+
+}
