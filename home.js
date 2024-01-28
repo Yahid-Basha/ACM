@@ -8,8 +8,8 @@ const tracksItemsData = {
       {
         sessionName: "The Beauty of JavaScript",
         imgSrc: "assets/js-logo.png",
-        dateTime: "Jan 29, 9:30am",
-        date: "Jan 29, 2024",
+        dateTime: "Jan 31, 9:30am",
+        date: "Jan 31, 2024",
         time: "9:30 AM to 10:30 AM",
         duration: 1,
         pageLink: "js.html"
@@ -17,8 +17,8 @@ const tracksItemsData = {
       {
         sessionName: "Responsive Design & Deployment",
         imgSrc: "assets/css-img.png",
-        dateTime: "Jan 29, 10:45am",
-        date: "Jan 29, 2024",
+        dateTime: "Jan 31, 10:45am",
+        date: "Jan 31, 2024",
         time: "10:45 AM to 12:15 PM",
         duration: 1.5,
         pageLink: "responsiveDesign.html"
@@ -26,8 +26,8 @@ const tracksItemsData = {
       {
         sessionName: "Advanced JavaScript & API Mastery",
         imgSrc: "assets/postman-api.png",
-        dateTime: "Jan 29, 2pm",
-        date: "Jan 29, 2024",
+        dateTime: "Jan 31, 2pm",
+        date: "Jan 31, 2024",
         time: "2:00 PM to 4:00 PM",
         duration: 2,
         pageLink: "advJS.html"
@@ -35,8 +35,8 @@ const tracksItemsData = {
       {
         sessionName: "React JS: The Jump Start",
         imgSrc: "assets/react-js-img.png",
-        dateTime: "Jan 30, 9:30am",
-        date: "Jan 30, 2024",
+        dateTime: "Feb 01, 9:30am",
+        date: "Feb 01, 2024",
         time: "9:30 AM to 11:30 AM",
         duration: 2,
         pageLink: "react.html"
@@ -46,8 +46,8 @@ const tracksItemsData = {
       {
         sessionName: "Git & All of it",
         imgSrc: "assets/git-image1.png",
-        dateTime: "Jan 29, 9:30am",
-        date: "Jan 29, 2024",
+        dateTime: "Jan 31, 9:30am",
+        date: "Jan 31, 2024",
         time: "9:30 AM to 10:30 AM",
         duration: 1,
         pageLink: "git.html"
@@ -55,8 +55,8 @@ const tracksItemsData = {
       {
         sessionName: "DIY URL Shortener",
         imgSrc: "assets/url-shortner-img.png",
-        dateTime: "Jan 29, 10:45am",
-        date: "Jan 29, 2024",
+        dateTime: "Jan 31, 10:45am",
+        date: "Jan 31, 2024",
         time: "10:45 AM to 12:15 PM",
         duration: 1.5,
         pageLink: "url.html"
@@ -64,8 +64,8 @@ const tracksItemsData = {
       {
         sessionName: "Deploy ML Models",
         imgSrc: "assets/ml-host.png",
-        dateTime: "Jan 29, 2am",
-        date: "Jan 29, 2024",
+        dateTime: "Jan 31, 2am",
+        date: "Jan 31, 2024",
         time: "2:00 PM to 4:00 PM",
         duration: 2,
         pageLink: "deployML.html"
@@ -74,8 +74,8 @@ const tracksItemsData = {
       {
         sessionName: "Open Source & GSOC",
         imgSrc: "assets/OpenSource-img.png",
-        dateTime: "Jan 30, 9:30am",
-        date: "Jan 30, 2024",
+        dateTime: "Feb 01, 9:30am",
+        date: "Feb 01, 2024",
         time: "9:30 AM to 11:30 AM",
         duration: 1.5,
         pageLink: "openSource.html"
@@ -83,8 +83,8 @@ const tracksItemsData = {
       {
         sessionName: "Special Session",
         imgSrc: "assets/mystery.jpeg",
-        dateTime: "Jan 30, 11:45am",
-        date: "Jan 30, 2024",
+        dateTime: "Feb 01, 11:45am",
+        date: "Feb 01, 2024",
         time: "11:45 AM to 12:45 PM",
         duration: 1,
         pageLink: "coolestThings.html"
