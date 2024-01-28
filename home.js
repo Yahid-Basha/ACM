@@ -79,15 +79,6 @@ const tracksItemsData = {
         time: "9:30 AM to 11:30 AM",
         duration: 1.5,
         pageLink: "openSource.html"
-      },
-      {
-        sessionName: "Special Session",
-        imgSrc: "assets/mystery.jpeg",
-        dateTime: "Feb 01, 11:45am",
-        date: "Feb 01, 2024",
-        time: "11:45 AM to 12:45 PM",
-        duration: 1,
-        pageLink: "coolestThings.html"
       }
     ]
   };
@@ -163,11 +154,11 @@ const tracksItemsData = {
       },
       {
         sessionName: "Special Session",
-        imgSrc: "assets/T2E-img.png",
+        imgSrc: "assets/mystery.jpeg",
         track: "Track 2",
         time: "11:45 AM to 12:45 PM",
         duration: 1,
-        pageLink: "mystery.jpeg"
+        pageLink: "mystery.html"
       }
     ]
   };
