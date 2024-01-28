@@ -11,28 +11,33 @@ body{
     position: relative;
 }
 
+
+
 a:link {
     color: white;
     text-decoration: none;
   }
   
-  a:visited {
+a:visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     color: rgb(199, 199, 255);
     background-color: transparent;
     text-decoration: underline;
   }
   
-  a:active {
+a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
   }
+
+
+
 
 .go-back{
     background: rgba(255,255,255,.05);
@@ -163,11 +168,11 @@ td{
   padding: 0;
   margin: 0;
 }
-.important h1{
+.important h1, .important h2{
   font-family: Italiana;
 }
 
-.important ul{
+.important ul, .important p{
   font-family: Inter;
     list-style-type: none;
     line-height: 30px;
@@ -178,6 +183,16 @@ td{
 .important{
   color: white;
   padding: 0px 16px;
+}
+
+
+#doc-link{
+  color: rgb(103, 221, 242);
+  font-size: 20px;
+}
+
+#doc-link:hover{
+  color: rgb(222, 239, 163);
 }
 
 
@@ -200,6 +215,14 @@ td{
   .important{
     color: white;
     padding: 0px 294px;
+  }
+
+  iframe{
+    width: 560px;
+    height: 320px;
+  }
+  #doc-link{
+    font-size: 26px;
   }
 
 }

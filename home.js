@@ -79,15 +79,6 @@ const tracksItemsData = {
         time: "9:30 AM to 11:30 AM",
         duration: 1.5,
         pageLink: "openSource.html"
-      },
-      {
-        sessionName: "Special Session",
-        imgSrc: "assets/mystery.jpeg",
-        dateTime: "Feb 01, 11:45am",
-        date: "Feb 01, 2024",
-        time: "11:45 AM to 12:45 PM",
-        duration: 1,
-        pageLink: "coolestThings.html"
       }
     ]
   };
@@ -163,46 +154,14 @@ const tracksItemsData = {
       },
       {
         sessionName: "Special Session",
-        imgSrc: "assets/T2E-img.png",
+        imgSrc: "assets/mystery.jpeg",
         track: "Track 2",
         time: "11:45 AM to 12:45 PM",
         duration: 1,
-        pageLink: "mystery.jpeg"
+        pageLink: "mystery.html"
       }
     ]
   };
-  
-  
-
-// const tracksItemsData = {
-//     track1: [
-//         {
-//             imageSrc: "assessts/OpenSource-img.png",
-//             sessionName: "Open Source & Making your first OS contribution & GSOC",
-//             description: [
-//                 "Dive into the world of open-source software and transform from a user to a contributor.",
-//                 "In this interactive workshop, you'll navigate the ecosystem of open-source projects and learn how to make your mark.",
-//                 "Covering the basics of choosing a project, understanding issues, and making your first pull request, this session is your stepping stone into the grand arena of open-source contributions.",
-//                 "Plus, tips on how to get selected for the prestigious Google Summer of Code (GSOC)!"
-//             ]
-//         },
-//         {
-//             imageSrc: "assessts/OpenSource-img.png",
-//             sessionName: "Open Source & Making your first OS contribution & GSOC",
-//             description: [
-//                 "Dive into the world of open-source software and transform from a user to a contributor.",
-//                 "In this interactive workshop, you'll navigate the ecosystem of open-source projects and learn how to make your mark.",
-//                 "Covering the basics of choosing a project, understanding issues, and making your first pull request, this session is your stepping stone into the grand arena of open-source contributions.",
-//                 "Plus, tips on how to get selected for the prestigious Google Summer of Code (GSOC)!"
-//             ]
-//         }
-//     ],
-//     track2: [
-//         { id: 1, name: 'Item 1 for Track 2' },
-//         { id: 2, name: 'Item 2 for Track 2' },
-//         // Add more items for Track 2
-//     ]
-// };
 
 filterTrackItems("track1");
 filterDayItems("day1");
