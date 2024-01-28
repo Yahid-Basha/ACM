@@ -4,7 +4,7 @@ body{
   }
   .main-img{
       width: 100%;
-      height: 220px;
+      /* height: 220px; */
   }
   
   #main-img{
@@ -183,17 +183,25 @@ body{
 
 
   
-@media(min-width: 1200px) {
-  .main-container{
-    display: flex;
-    gap: 120px;
-    justify-content: center;
-    align-items: center;
+  @media(min-width: 1200px) {
+    .main-container{
+      display: flex;
+      gap: 120px;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .main-img{
+      /* width: 800px; */
+      height: 500px;
+    }
+    .agenda{
+      color: white;
+      padding: 0px 294px;
+    }
+    .important{
+      color: white;
+      padding: 0px 294px;
+    }
+  
   }
-
-  .main-img{
-    width: 800px;
-    height: 500px;
-  }
-
-}
