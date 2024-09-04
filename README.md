@@ -1,1 +1,1 @@
-[https://vrsacm.club](VRSACM.CLUB)
+[VRSACM.CLUB](https://www.vrsacm.club)
